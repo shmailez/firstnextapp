@@ -40,6 +40,40 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  background-color: rgb(135, 207, 255);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(135, 207, 255);
+}
+
+.link{
+  margin: 20px;
+}
+.aboutrouting {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.aboutrouting li{
+  margin: 14px;
+}
+
+main {
+  text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
